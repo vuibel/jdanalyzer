@@ -1,0 +1,32 @@
+Snowflake - Healthcare Enterprise Account Executive
+
+About Snowflake:
+Snowflake is the Data Cloud company, enabling organizations to mobilize their data with a platform that delivers the performance, concurrency, and simplicity needed for data-intensive workloads.
+
+The Role:
+We're seeking an Enterprise AE with deep healthcare industry expertise to drive adoption of Snowflake's Data Cloud within Payer, Provider, and Life Sciences organizations. This role requires understanding HIPAA compliance, healthcare data architecture, and the unique challenges of healthcare data interoperability.
+
+What You'll Do:
+- Own full sales cycle for healthcare enterprise accounts ($250K-$1M+ ACV)
+- Build relationships with CIOs, CDOs, and Data Engineering leaders at healthcare organizations
+- Navigate complex compliance requirements (HIPAA, HITRUST) in sales process
+- Demonstrate deep understanding of healthcare data challenges: EHR integration, claims data, patient 360
+- Partner with Solutions Architects on technical POCs and architecture design
+- Achieve $2M+ annual quota through strategic account planning
+
+Required Qualifications:
+- 10+ years enterprise software sales, with 5+ years selling INTO healthcare
+- Proven track record selling data platforms, analytics, or cloud infrastructure to healthcare
+- Deep understanding of healthcare data architecture and compliance requirements
+- Technical fluency with SQL, data warehousing concepts, cloud platforms (AWS/Azure/GCP)
+- Existing relationships with healthcare CIOs/CDOs strongly preferred
+- Computer Science or related technical degree preferred
+
+Compensation:
+- $160K base + $160K variable (50/50 split)
+- Equity grants
+- President's Club for top 10% performers
+
+This role is ideal for someone with healthcare domain expertise who has built a career selling technical data platforms specifically to healthcare organizations.
+
+Location: Remote (US), preference for candidates based near major healthcare hubs (Boston, Nashville, Chicago)
