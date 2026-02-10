@@ -2,7 +2,6 @@
 """
 Job Description Fit Analyzer
 Analyzes how well your background matches a job description using Claude API.
-Built by Vincent Uibel for enterprise AE job search optimization.
 """
 
 import anthropic
@@ -12,53 +11,50 @@ import json
 from pathlib import Path
 
 # Your experience summary (condensed from resume)
+# TODO: Replace this with your own background
 CANDIDATE_PROFILE = """
-VINCENT UIBEL - ENTERPRISE SAAS ACCOUNT EXECUTIVE
+YOUR_NAME - YOUR_TITLE
 
 CORE STRENGTHS:
-- 15+ years enterprise SaaS sales experience
-- $2.4M portfolio management with 95% retention
-- 140%+ quota attainment (peak 256% at Gartner)
-- $1M+ deal sizes, 3-6 month sales cycles
-- Territory building: $0 → $750K ARR in first year (done 2x)
-- Multi-threading across technical and business buyers
-- 4x Winner's Circle awards (Gartner 2016, 2017, 2018, 2024)
+- [Years] of experience in [your field]
+- [Key achievement with metrics]
+- [Quota/performance metrics]
+- [Deal sizes, sales cycles, or relevant metrics]
+- [Territory/account building experience]
+- [Key skill or approach]
+- [Awards or recognition]
 
 EXPERIENCE HIGHLIGHTS:
-- Gartner (10+ years total): Sold subscription software/data platforms to $1B+ enterprises
-  - High Tech division: Product, Marketing, GTM leaders
-  - Marketers division: CMOs, Marketing VPs at F500 companies
-  - Launched West Coast territory from zero, first $100K+ deal in new BU
-  - Sales Manager role: Led 7 quota-carrying reps, produced global top achiever
-  
-- Chainalysis (8 months): $335K ARR, 3-month sales cycle, Risk/Compliance buyers
-- Braintrust (7 months): $750K contracts, HR/Product/Engineering buyers
-- GigaOM & Geeknet: B2B tech media sales, $1.2M+ annual revenue
+- Company 1 ([tenure]): [Key outcomes and responsibilities]
+  - [Specific achievement]
+  - [Specific achievement]
+
+- Company 2 ([tenure]): [Key outcomes]
+- Company 3 ([tenure]): [Key outcomes]
 
 TECHNICAL SKILLS:
-- Building AI automation tools (Python, Claude API, n8n, MCP servers)
-- Sales enablement: Trained teams on GPT workflows for research and pipeline
-- Cross-functional: Partnered with Product, Marketing, Analyst Relations
+- [Relevant technical skills]
+- [Tools and platforms]
+- [Cross-functional experience]
 
 BUYER PERSONAS:
-- C-suite: CMOs, CIOs, CPOs, CROs
-- Functional leaders: Marketing, Product, Engineering, IT, Compliance, HR, Risk
-- Technical buyers: Engineers, Data teams, Product managers
+- [Executive level buyers you've sold to]
+- [Functional leaders]
+- [Technical buyers]
 
 VERTICALS:
-- High Tech, Financial Services, Retail, CPG, Travel/Hospitality
+- [Industries you have experience in]
 
 IDEAL ROLES:
-- Enterprise Account Executive
-- Strategic Account Director
-- Founding AE at Series A/B SaaS/AI companies
-- Roles requiring: territory building, product-led sales, technical selling, GTM strategy input
+- [Target role 1]
+- [Target role 2]
+- [Target role 3]
+- [Key requirements you're looking for]
 
 NOT A FIT FOR:
-- Pure SMB/Mid-market motion
-- Transactional/low-touch sales
-- Roles requiring deep vertical specialization (unless Financial Services, Retail, or High Tech)
-- Companies wanting "plug and play" reps for mature playbooks
+- [Role type to avoid]
+- [Motion that doesn't match your style]
+- [Other exclusions]
 """
 
 ANALYSIS_PROMPT = """You are a senior GTM recruiter evaluating candidate fit for enterprise SaaS sales roles.
@@ -165,7 +161,6 @@ def main():
     
     print("=" * 80)
     print("JOB DESCRIPTION FIT ANALYZER")
-    print("Candidate: Vincent Uibel | Enterprise SaaS AE")
     print("=" * 80)
     print()
     

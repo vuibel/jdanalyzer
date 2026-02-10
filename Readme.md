@@ -2,7 +2,7 @@
 
 **AI-powered tool to analyze job posting alignment with your background and generate positioning strategies.**
 
-Built by [Vincent Uibel](https://linkedin.com/in/vincentuibel) for enterprise AE job search optimization using Claude API.
+Built for job search optimization using Claude API.
 
 ## What It Does
 
@@ -30,8 +30,8 @@ This tool was built during an active job search to:
 
 ```bash
 # Clone repo
-git clone https://github.com/vuibel/jd-fit-analyzer.git
-cd jd-fit-analyzer
+git clone https://github.com/YOUR_USERNAME/jdanalyzer.git
+cd jdanalyzer
 
 # Install dependencies
 pip install -r requirements.txt
@@ -142,9 +142,6 @@ Analyzing 50 job postings = ~$1.00
 
 MIT License - Use freely, attribution appreciated
 
-## Contact
+## Contributing
 
-Built by Vincent Uibel  
-📧 vincent.uibel@gmail.com  
-💼 [LinkedIn](https://linkedin.com/in/vincentuibel)  
-🔨 Built while searching for Enterprise AE roles at AI/SaaS companies
+Issues and pull requests welcome on GitHub.

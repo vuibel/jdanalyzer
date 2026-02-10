@@ -10,8 +10,8 @@
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/vuibel/jd-fit-analyzer.git
-cd jd-fit-analyzer
+git clone https://github.com/YOUR_USERNAME/jdanalyzer.git
+cd jdanalyzer
 ```
 
 ### 2. Install Dependencies
@@ -160,7 +160,5 @@ Each analysis uses approximately:
 
 ## Support
 
-Issues? Questions? Contact:
-- Email: vincent.uibel@gmail.com
-- LinkedIn: [linkedin.com/in/vincentuibel](https://linkedin.com/in/vincentuibel)
-- GitHub Issues: [Create an issue](https://github.com/vuibel/jd-fit-analyzer/issues)
+Issues? Questions?
+- GitHub Issues: [Create an issue](https://github.com/YOUR_USERNAME/jdanalyzer/issues)
